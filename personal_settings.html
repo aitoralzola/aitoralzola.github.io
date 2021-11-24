@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Settings IOA</title>
+  <link rel="stylesheet" href="css/personal_settings.css"/>
+  <link rel="icon" href="images/IOA_logo.ico" type="image/x-icon"/>
+</head>
+<body>
+  <header>
+    <a href="main.html"><img id="logo" src="images/IOA_logo.png" alt="Icono IOA"></a>
+    <div class="btn-group">
+      <button id="signout" onclick="window.location.href='index.html'">Sign out</button>
+      <div class="subnav">
+        <button id="btn-myprofile">My Profile</button>
+        <div class="subnav-content">
+          <div class="nav-display">
+            <a href="personal_settings.html" class="submenu-link">Personal Settings</a>
+            <a href="createactivity.html" class="submenu-link">Create Activities</a>
+            <a href="myActivities.html" class="submenu-link">My Activities</a>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </header>
+  <main>
+      <aside>
+          <div id="aside-top">
+            <img src="images/settings.png" alt=" settings image " id="setting-img">
+            <h3>Personal Settings</h3>
+          </div>
+          <div id="aside-column">
+            <span class="aside-span">Personal Details</span>
+            <span class="aside-span">Notifications Preferences</span>
+            <span class="aside-span">Security</span>
+          </div>        
+      </aside>
+      <section>
+        <div class="section-top">
+            <img src="images/InigoAgirre.png" alt="Inigo Agirre Photo" id="user-img">
+            <h3>Iñigo Agirre </h3>
+            <button id="update-photo">Update</button>
+        </div>
+        <div class="section-general">
+            <h2>Change User Information here</h2>
+            <div class="fill-gaps-div">
+                <div class="full-name">
+                    <span>Full Name*</span>
+                    <input type="text" placeholder="Iñigo Agirre">
+                </div>
+                <div class="email">
+                    <span>Email Address*</span>
+                    <input type="text" placeholder="inigo.agirre@alumni.mondragon.edu">
+                </div>
+                <div class="zip-code">
+                    <span>Zip-code</span>
+                    <input type="text" placeholder="20800">
+                </div>
+                <div class="address">
+                    <span>Address*</span>
+                    <input type="text" placeholder="Otamendi Kalea 4, 3C">
+                </div>
+                <button id="update-information">Update Information</button>
+
+            </di>
+        </div>
+      </section>
+ </main>
+  <footer>Copyleft: IOA Company</footer>
+</body>
+</html>
