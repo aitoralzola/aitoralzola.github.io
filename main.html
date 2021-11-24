@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAIN IOA</title>
+  <link rel="stylesheet" href="css/main.css"/>
+  <link rel="icon" href="images/IOA_logo.ico" type="image/x-icon"/>
+</head>
+<body>
+  <header>
+    <a href="main.html"><img id="logo" src="images/IOA_logo.png" alt="Icono IOA"></a>
+    <div class="btn-group">
+      <button id="signout" onclick="window.location.href='index.html'">Sign out</button>
+      <div class="subnav">
+        <button id="btn-myprofile">My Profile</button>
+        <div class="subnav-content">
+          <div class="nav-display">
+            <a href="personal_settings.html" class="submenu-link">Personal Settings</a>
+            <a href="createactivity.html" class="submenu-link">Create Activities</a>
+            <a href="myActivities.html" class="submenu-link">My Activities</a>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </header>
+  <main>
+    <section class="goi">
+        <div class="search-div">
+          <input type="text" placeholder="Search..."/>  
+          <div class="subsearch-content">
+            <div class="subsearch-div">
+              <a href="otitasres.html" class="subsearch-link" onfocus="window.location.href='otitasres.html'">Otitas Restaurant</a>
+              <a href="otitasres.html" class="subsearch-link" onclick="window.location.href='otitasres.html'">Agirres Cousine</a>
+              <a href="otitasres.html" class="subsearch-link" onclick="window.location.href='otitasres.html'">Guggeheim Museum</a>
+            </div>
+          </div>
+        </div>
+    </section>
+    </section>
+    <section class="behe">
+        <div class="recommended">
+          <h2>Recommended for you</h2>
+          <div class="links">
+            <a href="#restaurants" class="each-link">Restaurants</a>
+            <a href="#cultural-act" class="each-link">Cultural Activities</a>
+            <a href="#museums" class="each-link">Museums</a>
+          </div>
+        </div>
+        <h2 class="activity-title" id="museums">Museums</h2>
+        <div class="activity-images">
+			<div class="card">
+				<h3>Balenciaga</h3>
+				<img src="images/balenciaga.png" alt="Balenciaga museum photo" onclick="window.location.href='CAexample.html'">
+			</div>
+          <div class="card">
+            <h3>Guggenheim</h3>
+            <img src="images/gug.jpg" alt="Guggeheim museum photo" onclick="window.location.href='CAexample.html'">
+          </div>
+        </div>
+        <h2 class="activity-title" id="restaurants">Restaurants</h2>
+        <div class="activity-images">
+          <div class="card">
+            <h3>Aguirre`s Cousine</h3>
+            <img src="images/agirre.jpg" alt="Aguirre`s Cousine photo" onclick="window.location.href='otitasres.html'">
+          </div>
+          <div class="card">
+            <h3>Otitas Resturant</h3>
+            <img src="images/otitas.jpg" alt="Otitas Resturant photo" onclick="window.location.href='otitasres.html'">
+          </div>
+          <div class="card">
+            <h3>Txapi Txuri Etxea</h3>
+            <img src="images/txapi_txuri.jpg" alt="Txapi Txuri Etxea photo" onclick="window.location.href='otitasres.html'">
+          </div>
+        </div>
+        <h2 class="activity-title" id="cultural-act">Cultural Activities</h2>
+        <div class="activity-images">
+          <div class="card">
+            <h3>Teatro Victoria Eugenia</h3>
+            <img src="images/victoria-eugenia.jpg" alt="Teatro Victoria Eugenia photo" onclick="window.location.href='main.html'">
+          </div>
+
+        </div>
+    </section>
+ </main>
+  <footer>Copyleft: IOA Company</footer>
+</body>
+</html>
